@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(34, 5, 34);
+}
+.container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: white;
+    margin-left: 33%;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
+       
+}
+.todo-section{
+    padding: 5rem 15rem;
+}
+
+input
+{    
+ width: 270px;
+ padding: 8px;
+ border: 1px solid rgb(36, 4, 36);
+ outline: none;
+ font-size: 19px;
+ margin-bottom: 20px;
+ 
+}
+button{
+    width: 60px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 2px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+   
+}
+.text ul{
+    position: relative;  
+    background-color: rgb(3, 24, 24);
+    color: white;
+    font-size: 19px;
+    text-align: left;
+    padding: 7px;
+    font-family:  sans-serif;
+
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+
+      
+}
+@media screen and (max-width:600px){
+    .todo-section{
+        padding: 5rem 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

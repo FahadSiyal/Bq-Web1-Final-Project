@@ -1,0 +1,242 @@
+@media screen and (max-width:600px) {
+
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        height: 5.3rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+        color: #0622fa;
+    }
+
+    .logo h1 {
+        transition: 1.5s;
+    }
+
+    .nav-bar ul {
+        width: 100%;
+        height: 100vh;
+        background-color: blue;
+        color: white;
+        position: absolute;
+        bottom: 60rem;
+        transition: 1s;
+        left: 0;
+        z-index: 100;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar ul a {
+        color: white;
+    }
+
+    .menu-logo {
+        display: block;
+        position: relative;
+        z-index: 100;
+        transition: 2s;
+    }
+
+    .hero-container {
+        max-width: 90vw;
+        margin: 5rem auto;
+        height: 28rem;
+        display: flex;
+        gap: 4rem;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero-text {
+        font-size: 2.2rem;
+        max-width: 100vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        color: white;
+    }
+
+    .hero-image img {
+        width: 20rem;
+        border-radius: 10px;
+    }
+
+    .profile-names ul {
+        display: flex;
+        list-style: none;
+        gap: 1.5rem;
+        margin: 0rem 2rem;
+    }
+
+    .profile-names li {
+        color: white;
+        font-size: 1rem;
+        border-bottom: 1px solid blue;
+        cursor: pointer;
+        text-align: center;
+    }
+    .profile-text h1 {
+        font-size: 3rem;
+        color: #0622fa;
+    }
+    .profiles {
+        margin: 10rem 0rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    .profile-cards {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        flex-direction: column;
+    }
+
+    .profile-image img {
+        height: 18rem;
+        width: 18rem;
+    }
+
+    .profile-text:nth-child(2) {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .profile-text {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+        gap: 2rem;
+        margin: 0rem 2rem;
+    }
+
+    .faq-qs-ans {
+        max-width: 80vw;
+        margin: 2rem auto;
+        font-size: 1rem;
+        padding: 1.1rem 1.5rem 0.7rem 1.5rem;
+        border-radius: 10px;
+        cursor: pointer;
+        border-bottom: 2px solid #0622fa;
+    }
+
+    .review-sec-heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 2.1rem;
+        margin: 0rem 2rem;
+        max-width: 80rem;
+    }
+
+    .review-sec-heading :nth-child(1) {
+        font-size: 2.5rem;
+        font-weight: 900;
+        color: #0622fa;
+    }
+
+    .review-sec-heading :nth-child(2) {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .card {
+        margin: 2rem auto;
+        width: 19rem;
+        height: 13rem;
+        background-color: white;
+        border-radius: 2rem;
+        font-size: 1.3rem;
+        font-weight: 500;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        padding: 2.8rem 1rem;
+        gap: 3REM;
+        transition: 1s;
+    }
+
+    .review-form {
+        display: flex;
+        padding: 2rem 0rem;
+        gap: 2rem;
+        align-items: center;
+        height: 43rem;
+        width: 24rem;
+        margin: 2rem auto;
+        background-color: white;
+        flex-direction: column;
+    }
+
+    .text-area textarea {
+        padding: 0rem;
+        font-size: 1rem;
+        border: 2px solid #0622fa;
+        max-width: 16rem;
+        max-height: 8rem;
+    }
+
+    .form-heading {
+        color: #0622fa;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    .user-name-input input {
+        padding: 0.7rem 2rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        border: 2px solid #0622fa;
+    }
+
+    .add-review-btn button {
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 1rem;
+        background-color: #0622fa;
+        color: wheat;
+        border: none;
+    }
+
+    .nav-bar .active {
+        bottom: -35rem;
+    }
+    .nav-bar li a {
+        font-size: 1.4rem;
+        padding: 6px;
+    }
+    .header .color-toggle {
+        color: white;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .menu-color-toggle {
+        background-color: white;
+        border-radius: 0.5rem;
+    }
+    .footer-heading h1 {
+        color: #0622fa;
+        font-size: 2rem;
+        margin: 2rem;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 5rem 1rem;
+        gap: 5rem;
+    }
+}

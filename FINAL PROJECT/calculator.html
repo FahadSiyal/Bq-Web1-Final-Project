@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <!-- -------NAV-BAR START-------- -->
+    <header class="header">
+        <div class="logo ">
+            <h1>Web Titans</h1>
+        </div>
+        <nav class="nav-bar">
+            <ul >
+                <li><a href="INDEX.HTML">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="">Links</a></li>
+                <li><a href="review.html">Reviews</a></li>
+            </ul>
+        </nav>
+<div class="menu-logo "><img src="menu.svg" alt=""></div>
+    </header>
+
+    <div class="separation"></div>
+    <!-- -------NAV-BAR END-------- -->
+
+    <section class="calculator-section">
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('-')"class="operator-btn">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')"class="operator-btn">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('/')"class="operator-btn">/</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()"class="operator-btn">Cl</button>
+        </div>
+    </div>
+</section>
+   <!-- -------FOOTER-SECTION START-------- -->
+   <footer>
+    <div class=" footer-heading">  <h1>WEB TITANS</h1></div>
+     <div class="footer"> 
+       <div>
+           <ul>
+               <li>Home</li>
+               <li>Privacy Policy</li>
+               <li>Terms of Service</li>
+               <li>Contact Us</li>
+           </ul>
+       </div>
+       <div>
+          
+           <ul>
+               <li>Home</li>
+               <li>Privacy Policy</li>
+               <li>Terms of Service</li>
+               <li>Contact Us</li>
+           </ul>
+       </div>
+       <div>
+         
+           <ul>
+               <li>Home</li>
+               <li>Privacy Policy</li>
+               <li>Terms of Service</li>
+               <li>Contact Us</li>
+           </ul>
+       </div>
+       <div>
+         
+           <ul>
+               <li>Home</li>
+               <li>Privacy Policy</li>
+               <li>Terms of Service</li>
+               <li>Contact Us</li>
+           </ul>
+       </div>
+     </div>
+     <div class="last-block">
+       <p>&copy; 2024 Your Company Name. All Rights Reserved.</p>
+     </div>
+   </footer>
+     <!-- -------FOOTER-SECTION END-------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="calculator.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    font-family: "PT Sans", sans-serif;
+}
+/* <!-- -------NAV-BAR CSS START-------- --> */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    margin: auto;
+    height: 8.3rem;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: #0622fa;
+}
+.menu-logo{
+    display: none;
+}
+.menu-logo img{
+    height: 2.2rem;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 3.9rem;
+    list-style: none;
+}
+
+.nav-bar li a {
+    font-size: 2rem;
+    color: #0622fa;
+    padding: 6px;
+}
+
+.nav-bar li a:hover {
+    font-weight: bolder;
+    border-radius: 3px;
+    transition: 0.3s;
+    color: white;
+    border-bottom: 1px solid white;
+}
+/* <!-- -------NAV-BAR CSS END-------- --> */
+
+.separation {
+    height: 1px;
+    background-color: #0622fa;
+} 
+
+/*<!-- -------HERO-SECTION CSS START-------- --> */
+.hero-container {
+    max-width: 90vw;
+    margin: auto;
+    height: 50rem;
+    display: flex;
+    gap: 8rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hero-image img {
+    width: 50rem;
+    border-radius: 10px;
+}
+
+.hero-text {
+    font-size: 4.4rem;
+    max-width: 40vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    color: white;
+}
+
+.hero-text .different {
+    color: #0622fa;
+    font-weight: bolder;
+}
+/*<!-- -------HERO-SECTION CSS END-------- --> */
+
+/* <!-- -------PROFILE-SECTION CSS START-------- --> */
+.profiles {
+    margin: 10rem 0rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+}
+
+.profile-names ul {
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+}
+
+.profile-names li {
+    color: white;
+    font-size: 2.6rem;
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+
+}
+
+.profile-cards {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.profile-image img {
+    height: 35rem;
+    width: 35rem;
+}
+
+.profile-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+    gap: 2rem;
+
+}
+
+.profile-text h1 {
+    font-size: 5rem;
+    color: #0622fa;
+}
+
+.profile-text:nth-child(2) {
+    font-size: 2rem;
+}
+
+.profile-names .fahad {
+    color: #0622fa;
+    border-bottom: 1px solid white;
+}
+/* <!-- -------PROFILE-SECTION CSS END-------- --> */
+
+/* <!-- -------- FAQ -SECTION CSS START-------- --> */
+
+.faq {
+
+    justify-content: center;
+    padding: 4rem 0rem;
+    flex-direction: column;
+    color: wheat;
+
+}
+
+.faq-heading {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    color: #0622fa;
+}
+
+.faq-qs-ans {
+    max-width: 80vw;
+    margin: 2rem auto;
+    font-size: 2rem;
+    padding: 1.1rem 1.5rem 0.7rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid #0622fa;
+
+}
+
+.faq-qs {
+    color: #0622fa;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.faq-ans {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.7s;
+    padding-top: 0.3rem;
+
+}
+
+.active .faq-ans {
+    max-height: 300px;
+}
+
+/* <!-- -------- FAQ -SECTION CSS END-------- --> */
+
+/* <!-- -------FOOTER-SECTION CSS START-------- --> */
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5rem 10rem;
+}
+.footer-heading h1{
+    color: #0622fa;
+    font-size: 4rem;
+    margin: 6rem;
+}
+.footer ul{
+    list-style: none;
+    
+}
+.footer ul li{
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem;
+ 
+}
+.last-block{
+    height: 5rem;
+    width: 100%;
+    background-color: #0b1c9b;
+}
+.last-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
